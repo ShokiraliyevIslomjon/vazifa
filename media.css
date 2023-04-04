@@ -1,0 +1,137 @@
+@media screen and (max-width:850px) {
+    .grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto ;
+        text-align: center;
+     }
+     .item:nth-child(3){
+        grid-column: 1/4;
+        margin-left: 50px;
+     }
+}
+@media screen and (max-width:650px) {
+    .item:nth-child(3){
+        grid-column: 1/1;
+        margin-left: 0px;
+     }
+    .hader{
+        width: 100%;
+        background-color: rgb(33, 63, 63);
+        display: block;
+    }
+    .menyu1{
+        width:100% ;
+        text-align: center;
+    }
+    .menyu1 > h1{
+        color: #fff;
+        font-size: 45px;
+    }
+    .menyu2{
+        width:70% ;
+        margin: auto;
+        padding: 10px 10px;
+    }
+    .menyu2 > ul > li > a{
+        text-decoration: none;
+        font-size: 19px;
+        padding: 8px 5px;
+    }
+    .menyu3{
+        width:100%;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .menyu3 > ul > li >a{
+        font-size: 15px;
+    }
+    .grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto  ;
+        text-align: center;
+        margin: auto;
+     }
+     .item{
+        width: 90%;
+        margin: auto;
+       }
+}
+@media screen and (max-width:580px){
+    .abaut{
+        width: 90%;
+        padding: 50px 15px;
+        margin: auto;
+        margin-top: 20px;
+    }    
+    .abaut > h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .abaut > p{
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+    }
+    .copy{
+        width: 50%;
+        padding: 8px;
+    }
+    .use{
+        width: 50%;
+        padding: 8px;
+    }
+    .copy > h3{
+        font-size: 13px;
+    }
+    .use > h3{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:360px)  {
+    .abaut{
+        width: 90%;
+        padding: 20px;
+        margin-top: 15px;
+        margin-left: 15px;
+        box-shadow: 0 0 5px 15px rgba(211,211,211, 0.797);
+    }     
+    .abaut > button{
+        width: 100%;
+        height: 60px;
+        font-size: 17px;
+        letter-spacing: .8px;
+    }
+    .abaut > h1{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .hader{
+        padding: -10px;
+        background-color: rgb(33, 63, 63);
+        display: block;
+        margin-left: 0px;
+    }
+    .menyu2{
+        width:100% ;
+        text-align: center;
+    }
+    .copy > h3{
+        font-size: 11px;
+        padding: 5px;
+    }
+    .use > h3{
+        font-size: 11px;
+        padding: 5px;
+    }
+}
